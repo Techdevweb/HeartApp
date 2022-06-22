@@ -1,5 +1,6 @@
 # CardiacStatus
 An web application that predicts heart disease using Person's age, gender, resting blood pressure, serum cholestrol and max heart rate achived.
+
 Link to the app: https://cardiac-app.herokuapp.com/
 
 Technologies used:
