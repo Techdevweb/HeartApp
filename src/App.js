@@ -12,7 +12,7 @@ function App() {
   const loadModel=async () => {
     setIsModelLoading(true)
     try {
-      const model=await tf.loadLayersModel('https://raw.githubusercontent.com/Techdevweb/HeartApp/master/models/model.json')
+      const model=await tf.loadLayersModel('https://raw.githubusercontent.com/Techdevweb/HeartApp/main/models/model.json')
       setModel(model)
       setIsModelLoading(false)
     } catch (error) {
